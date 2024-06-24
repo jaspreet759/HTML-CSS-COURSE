@@ -1,0 +1,38 @@
+.card {
+    border: 1px solid black;
+    margin: 18% 23% 23% 27%;
+    padding: 7% 1% 13% 1%;
+    /* height: 11; */
+    background-color: #d1d5ec;
+}
+.container {
+    display: inline-block; /* Ensures container only takes up as much width as necessary */
+    white-space: nowrap; /* Prevents items from wrapping to the next line */
+    /* vertical-align: top; */
+}
+
+.item {
+    display: inline-block; /* Display items inline */
+    margin-right: 10px; /* Optional: Adjust margin between items */
+}
+.img1 {
+    border-radius: 70%;
+    width: 65px;
+    height: 55px;
+}
+
+.content-div {
+    display: inline;
+}
+.button {
+    margin-left: 11rem;
+    padding: 12px 19px 10px 18px;
+    font-size: 20px;
+    background-color: #4192F1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+p {
+    line-height: 2px;
+}

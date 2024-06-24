@@ -1,0 +1,51 @@
+.name,.email {
+    display: block;
+    margin-bottom: 5px;;
+}
+.paragraph {
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    margin-right: 25px;
+}
+.google-logo {
+    /* margin auto use to image center */
+    margin: auto; 
+    display: block;
+}
+.google-search {
+    width: 45%;
+    border-radius: 18px;
+    padding: 8px 8px 8px 10px;
+    margin-left: 28%;
+    font-size: 16px;
+    font-family: Arial;
+} 
+.div-uber {
+    width: 50%;
+    margin: auto;
+    margin: 25% 30% 20% 38%;
+}  
+.uber-pickup {
+    width: 58%;
+    display: block;
+    color: #E2E2E3;
+    background-color: #F0F1F1;
+    margin: 0 0 9px 0;
+    padding: 6px;
+
+    
+}
+.uber-button {
+    background-color: #010100;
+    color: white;
+    padding: 10px;
+}
+.schedule-button {
+    padding: 10px;
+    background-color: #DADADA;   
+    color: rgb(19,18,19);
+}
+.border {
+    border: none;
+}

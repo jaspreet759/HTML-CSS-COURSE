@@ -1,0 +1,111 @@
+<!-- 1.in this we learn how we change backgound color with mouse hover 
+2 when we click on any button then how we change button color 
+3. how we add shodow when we hover any button  -->
+
+
+<!-- we can do this with CSS Pseudo-classes  :- 
+    Style an element when a user mouses over it
+    Style an element when it gets focus
+
+The syntax of pseudo-classes: 
+    selector:pseudo-class {
+        property: value;
+      } -->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mouse effect on buttons</title>
+        <style>
+            .Subscribe {
+                background-color: rgb(201, 42, 42);
+                color: white;
+                height: 30px;
+                width: 100px;
+                border: none;
+                border-radius: 2px;
+                cursor: pointer;
+                margin-right: 8px;
+                transition: opacity 1s;
+            }
+            /* with this when we hover the button it will change in green color  */
+            /* .Subscribe:hover {
+                background-color: green;
+            } 
+             */
+            /* with this when we click on button it will change in blue color */
+            /* .Subscribe:active {
+                background-color: rgba(19, 200, 241, 0.944);
+            }    */
+        
+            .Subscribe:hover {
+                opacity: 0.7;
+            }
+            .Subscribe:active {
+               background-color: green;
+            }
+            /* this is used for fade it will contains only 0 and 1 value  ,1 means normal and with 0 elment will fade */
+        
+            .join {
+                    background-color: white;
+                    color: rgb(24, 150, 213);
+                    border-color: rgb(24, 150, 213);;
+                    border: 1px solid rgb(24, 150, 213);;
+                    height: 30px;
+                    width: 60px;
+                    cursor: pointer;
+                    transition: background-color 1s, color 1s;
+                }
+            .join:hover {
+                background-color:rgb(24, 150, 213);
+                color: white;
+            }
+        
+            /* The box-shadow property attaches one or more shadows to an element.
+            
+            Syntax:-   box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;  
+            #example1 {
+          box-shadow: 10px 10px 8px black;
+        
+        */
+        
+        .tweater {
+                    background-color: rgb(16, 145, 215);
+                    color: white;
+                    border-radius: 18px;
+                    height: 36px;
+                    width:70px;
+                    border: none;
+                    font-weight: bold;
+                    cursor: pointer;
+                    font-size: 15px;
+                    margin-left: 8px;
+                    transition: box-shadow 1s;
+                   
+                   
+                }
+                .tweater:hover {
+                    box-shadow: 10px 10px 10px rgba(0,0,0, 0.15);
+                     /* rgba is used for opacity ; */
+                }
+        </style>
+    </head>
+    <body>
+        <button class="Subscribe"> Subscribe </button>
+<button class="join"> JOIN </button>
+<button class="tweater"> Tweet </button>
+    </body>
+</html>
+
+
+
+<!-- Main note:- 
+
+1. CSS Pseudo-classes,
+2.opacity,
+3. CSS Transitions:- allows you to change property values smoothly, over a given duration 
+ (ehde nl mtlb thoda slow ho jnda   )
+4. box-shadow:- rgba()
+
+-->

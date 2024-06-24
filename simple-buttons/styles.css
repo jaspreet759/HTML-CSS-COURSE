@@ -1,0 +1,31 @@
+.Subscribe {
+  background-color: rgb(201, 42, 42);
+  color: white;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+.join {
+  background-color: white;
+  color: rgb(24, 150, 213);
+  border-color: rgb(24, 150, 213);
+  border: 1px solid rgb(24, 150, 213);
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+}
+.tweater {
+  background-color: rgb(16, 145, 215);
+  color: white;
+  border-radius: 18px;
+  height: 36px;
+  width: 70px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 8px;
+}
